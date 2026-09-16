@@ -148,7 +148,7 @@ export default function Home() {
               className="md:w-40 w-28 h-auto"
             />
 
-            <h2 className="text-[#0071CC] md:text-xl text-[12px] text-center font-eb-garamond">
+            <h2 className="text-[#0071CC] md:text-xl text-[14px] text-center font-eb-garamond px-4">
               In the gentle presence of love and blessings that continue to
               guide us from above... <br />
               Late Smt. Especiosa Sumantha & Late Shri Edwin Sumantha <br />
@@ -270,7 +270,7 @@ export default function Home() {
           <div className="flex gap-2">
             <hr className="w-10 lg:w-20 md:border my-3 lg:my-6 border-[#FFCB99]" />
             <img
-              src="/assets/icon.png"
+              src="/assets/icon3.png"
               alt="icon"
               className="w-5 h-5 lg:w-6 lg:h-6 lg:mt-3"
             />
