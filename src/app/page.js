@@ -1,6 +1,6 @@
 "use client";
-// import MarriageCountdown from "./components/MarriageCountdown";
 import CoupleMessage from "./components/CoupleMessage";
+import Fireworks from "./components/Fireworks";
 import { useEffect, useState, useRef, useMemo } from "react";
 
 export default function Home() {
@@ -64,53 +64,53 @@ export default function Home() {
     },
   ];
 
-  // const audioRef = useRef<HTMLAudioElement | null>(null);
-  // const [started, setStarted] = useState(false);
-  // const [playing, setPlaying] = useState(false);
+  const audioRef = useRef(null);
+  const [started, setStarted] = useState(false);
+  const [playing, setPlaying] = useState(false);
 
-  // const startMusic = async () => {
-  //   const audio = audioRef.current;
-  //   if (!audio || started) return;
+  const startMusic = async () => {
+    const audio = audioRef.current;
+    if (!audio || started) return;
 
-  //   try {
-  //     audio.volume = 0.3;
-  //     await audio.play();
-  //     setStarted(true);
-  //     setPlaying(true);
-  //   } catch { }
-  // };
+    try {
+      audio.volume = 0.3;
+      await audio.play();
+      setStarted(true);
+      setPlaying(true);
+    } catch { }
+  };
 
-  // const toggleMusic = async () => {
-  //   const audio = audioRef.current;
-  //   if (!audio) return;
+  const toggleMusic = async () => {
+    const audio = audioRef.current;
+    if (!audio) return;
 
-  //   if (playing) {
-  //     audio.pause();
-  //     setPlaying(false);
-  //   } else {
-  //     try {
-  //       await audio.play();
-  //       setPlaying(true);
-  //     } catch { }
-  //   }
-  // };
+    if (playing) {
+      audio.pause();
+      setPlaying(false);
+    } else {
+      try {
+        await audio.play();
+        setPlaying(true);
+      } catch { }
+    }
+  };
 
-  // // First user interaction (mobile + desktop)
-  // useEffect(() => {
-  //   const handler = () => startMusic();
+  // First user interaction (mobile + desktop)
+  useEffect(() => {
+    const handler = () => startMusic();
 
-  //   window.addEventListener("click", handler);
-  //   window.addEventListener("touchstart", handler);
+    window.addEventListener("click", handler);
+    window.addEventListener("touchstart", handler);
 
-  //   return () => {
-  //     window.removeEventListener("click", handler);
-  //     window.removeEventListener("touchstart", handler);
-  //   };
-  // }, [started]);
+    return () => {
+      window.removeEventListener("click", handler);
+      window.removeEventListener("touchstart", handler);
+    };
+  }, [started]);
 
   return (
     <div>
-      {/* <button
+      <button
         onClick={() => {
           started ? toggleMusic() : startMusic();
         }}
@@ -119,21 +119,15 @@ export default function Home() {
         {playing ? "⏸" : "▶"}
       </button>
 
-      <audio ref={audioRef} src="/assets/background_song_rohit.mp3" loop preload="auto" playsInline /> */}
+      <audio ref={audioRef} src="/assets/background_song.mp3" loop preload="auto" playsInline />
 
+                <Fireworks />
+  
       <div
         className="bg-[url('/assets/rhea_mobilebg4.webp')]
    md:bg-[url('/assets/rhea_desktopbg.webp')]
-    bg-cover
-    bg-top
-    bg-no-repeat
-    min-h-screen
-    w-full
-    relative
-    overflow-hidden
-  "
-      >
-        {/* <FallingLamps /> */}
+    bg-cover bg-top bg-no-repeat min-h-screen w-full relative overflow-hidden" >
+      
 
         <div className=" md:pt-24 pt-0 md:pb-50 lg:pb-40 relative z-10 pb-24">
           <div className=" text-center leading-tight text-[32px] sm:text-5xl lg:text-[100px] lg:pb-370 3xl:pb-500 md:pb-470 gap-y-2 pb-30">
@@ -216,7 +210,6 @@ export default function Home() {
           </div>
 
           <div className="flex justify-center mt-20">
-          
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-x-16 lg:gap-x-40 gap-y-20">
               {events.map((event, i) => (
                 <div key={i} className="flex flex-col items-center text-center">
@@ -231,12 +224,20 @@ export default function Home() {
                   </h2>
 
                   <p className="text-[#0071CC] font-playfair-display text-[14px] sm:text-base mt-2">
-                    <span className="md:text-[22px] text-[18px]">{event.date}</span> <br />
-                    <span className="md:text-[22px] text-[18px]"> {event.time} </span>
+                    <span className="md:text-[22px] text-[18px]">
+                      {event.date}
+                    </span>{" "}
+                    <br />
+                    <span className="md:text-[22px] text-[18px]">
+                      {" "}
+                      {event.time}{" "}
+                    </span>
                   </p>
 
                   <p className="text-[#0071CC] font-playfair-display text-[14px] sm:text-base">
-                    <span className="md:text-[22px] text-[18px]">{event.venue_address}</span>
+                    <span className="md:text-[22px] text-[18px]">
+                      {event.venue_address}
+                    </span>
                   </p>
                   <p className="text-[#0071CC] font-playfair-display text-[14px] sm:text-base mt-2">
                     <a
@@ -277,7 +278,7 @@ export default function Home() {
             {/* Thank you for being part of our journey. <br /> Your presence makes this celebration truly <br /> 
                    meaningful, and we look forward to sharing <br /> these cherished moments with you. */}
             In a world full of beautiful stories, ours began in 2023...
-            <br/> <br />
+            <br /> <br />
             Where the serene shores of the South met the golden coasts of the
             West,
             <br />
