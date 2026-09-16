@@ -2,6 +2,8 @@
 import CoupleMessage from "./components/CoupleMessage";
 import Fireworks from "./components/Fireworks";
 import { useEffect, useState, useRef, useMemo } from "react";
+import RoseHeroTemp from "./components/RoseHeroTemp";
+
 
 export default function Home() {
   const events = [
@@ -121,13 +123,13 @@ export default function Home() {
 
       <audio ref={audioRef} src="/assets/background_song.mp3" loop preload="auto" playsInline />
 
-                <Fireworks />
+                {/* <Fireworks /> */}
   
       <div
         className="bg-[url('/assets/rhea_mobilebg4.webp')]
    md:bg-[url('/assets/rhea_desktopbg.webp')]
     bg-cover bg-top bg-no-repeat min-h-screen w-full relative overflow-hidden" >
-      
+           <RoseHeroTemp />
 
         <div className=" md:pt-24 pt-0 md:pb-50 lg:pb-40 relative z-10 pb-24">
           <div className=" text-center leading-tight text-[32px] sm:text-5xl lg:text-[100px] lg:pb-370 3xl:pb-500 md:pb-470 gap-y-2 pb-30">
