@@ -115,12 +115,13 @@ const Fireworks = () => {
 
           traceLength: isMobile ? 2 : 3,
 
+          traceSpeed: isMobile ? 4 : 10,
+
+          intensity: isMobile ? 12 : 30,
+
           gravity: isMobile ? 1.5 : 1.5,
 
-          // 🔥 MUCH SLOWER ON MOBILE
-          speed: isMobile ? 0.15 : 1,
-
-          acceleration: isMobile ? 1.005 : 1.02,
+          acceleration: isMobile ? 1.01 : 1.02,
 
           // Slightly more gap between mobile fireworks
           delay: isMobile
