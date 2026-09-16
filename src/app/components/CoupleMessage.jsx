@@ -280,9 +280,9 @@ export default function CoupleMessage() {
               <h2 className="font-playfair-display font-semibold text-xl md:text-xl lg:text-4xl mt-8 text-[#D49900]">
                 Varmala
               </h2>
-              <p className="font-eb-garamond font-medium text-sm md:text-base lg:text-xl mt-4 md:leading-6 text-[#D49900]">
+              <p className="font-eb-garamond font-medium text-sm md:text-base lg:text-xl mt-4 md:leading-6 text-[#D49900] px-4">
                 Varmala at 2:45pm will happen at Poolside but the rest of the
-                wedding <br />
+                wedding <br className="md:block hidden"/>
                 rituals will happen in the Champagne Ballroom from 3:30pm
               </p>
             </div>
