@@ -82,8 +82,6 @@ const Fireworks = () => {
       ref={fireworksRef}
       style={{
         position: "fixed",
-
-        // IMPORTANT: Always stick to viewport top
         top: 0,
         left: 0,
         right: 0,
@@ -99,7 +97,6 @@ const Fireworks = () => {
 
         overflow: "hidden",
 
-        // Prevent any transform/offset from parent
         transform: "translate3d(0, 0, 0)",
       }}
     >
@@ -110,24 +107,26 @@ const Fireworks = () => {
             max: 50,
           },
 
-          particles: isMobile ? 18 : 80,
+          particles: isMobile ? 20 : 80,
 
-          explosion: isMobile ? 2 : 6,
+          explosion: isMobile ? 2.5 : 6,
 
-          size: isMobile ? 0.35 : 1,
+          size: isMobile ? 0.4 : 1,
 
-          traceLength: isMobile ? 1 : 3,
+          traceLength: isMobile ? 2 : 3,
 
-          gravity: isMobile ? 2 : 1.5,
+          gravity: isMobile ? 1.5 : 1.5,
 
-          speed: isMobile ? 0.5 : 1,
+          // 🔥 MUCH SLOWER ON MOBILE
+          speed: isMobile ? 0.15 : 1,
 
-          acceleration: isMobile ? 1.01 : 1.02,
+          acceleration: isMobile ? 1.005 : 1.02,
 
+          // Slightly more gap between mobile fireworks
           delay: isMobile
             ? {
-                min: 60,
-                max: 90,
+                min: 90,
+                max: 130,
               }
             : {
                 min: 40,
@@ -137,7 +136,6 @@ const Fireworks = () => {
         style={{
           position: "absolute",
 
-          // IMPORTANT: Canvas starts exactly at top
           top: 0,
           left: 0,
 
