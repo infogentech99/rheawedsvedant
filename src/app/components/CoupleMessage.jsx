@@ -90,62 +90,26 @@ export default function CoupleMessage() {
         >
           Introducing The Couple
         </h2>
-        <img
-          src="/assets/place.webp"
+        */}
+
+
+
+
+{/* 
+<img
+          src="/assets/animation.gif"
           alt="icon"
           className="w-full h-full lg:w-full lg:h-full md:mt-30"
          
-        /> */}
+        />  */}
 
-<div className="relative w-full">
-  {/* Top Right Text */}
-  <div className="absolute top-16 right-14 md:top-50 3xl:top-70 md:right-80 3xl:right-110 items-center flex flex-col md:gap-8"><img
-    src="/assets/loc_icon.png"
-    alt="icon"
-    className="md:w-7 md:h-10 h-5"
-  />
-  
-  <h2
-    className="font-playfair-display font-medium italic 
-               text-2xl md:text-3xl lg:text-7xl 
-               text-center leading-7 md:leading-8 
-               text-[#D49900] z-20"
-  >
-    Gujarat
-  </h2>
-  </div>
-  
-
-  {/* Image */}
-  <img
-    src="/assets/place.webp"
-    alt="icon"
-    className="w-full h-full object-cover z-10"
-  />
-
-  {/* Bottom Left Text */}
-
-
-
-<div className="absolute bottom-10 left-10 md:bottom-40 3xl:bottom-80 md:left-40 3xl:left-90 items-center flex flex-col md:gap-8"><img
-    src="/assets/loc_icon.png"
-    alt="icon"
-    className="md:w-7 md:h-10 h-5"
-  />
-  
-  <h2
-    className="font-playfair-display font-medium italic 
-               text-2xl md:text-3xl lg:text-7xl 
-               text-center leading-7 md:leading-8 
-               text-[#D49900] z-20"
-  >
-    Karnataka
-  </h2>
-  </div>
-
-
-
-</div>
+<video
+  src="/assets/template-animation.webm"
+  autoPlay
+  muted
+  playsInline
+  className="w-full h-full lg:w-full lg:h-full md:mt-30"
+/>
 
         <h2
           className="font-playfair-display font-medium italic text-4xl md:text-6xl text-center 
@@ -162,9 +126,9 @@ export default function CoupleMessage() {
           />
           <hr className="w-10 lg:w-20 md:border my-3 md:my-6 border-[#D49900]" />
         </div>
-        <div className="flex gap-2 md:mt-30 mt-16 px-2">
+        <div className="flex gap-2 md:mt-30 mt-16 md:px-2 pr-2">
           <div>
-            <img
+             <img
               src="/assets/couple_1.webp"
               alt="couple_img"
               className="
@@ -180,9 +144,31 @@ export default function CoupleMessage() {
       mt-2
       md:mt-4
       lg:mt-0
-      object-contain
+      object-contain md:block hidden
     "
             />
+             <img
+              src="/assets/couple_mobile_1.webp"
+              alt="couple_img"
+              className="
+      relative
+      z-10
+      pointer-events-none
+      w-100
+      h-60
+      md:w-150
+      md:h-145
+      lg:w-70
+      lg:h-110
+      mt-2
+      md:mt-4
+      lg:mt-0
+      object-contain
+      md:hidden block
+    "
+            />
+    
+            
             <img
               src="/assets/couple_2.png"
               alt="couple_img"
@@ -198,8 +184,30 @@ export default function CoupleMessage() {
       lg:h-60
       mt-3
       md:mt-4
+      lg:mt-3 
+      object-contain md:block hidden
+    "
+            />
+
+
+
+             <img
+              src="/assets/couple_mobile_2.webp"
+              alt="couple_img"
+              className="
+      relative
+      z-10
+      pointer-events-none
+      w-100
+      h-36
+      md:w-150
+      md:h-145
+      lg:w-70
+      lg:h-60
+      mt-2
+      md:mt-4
       lg:mt-3
-      object-contain
+      object-contain md:hidden block
     "
             />
             <div className="flex justify-center">
@@ -225,7 +233,7 @@ export default function CoupleMessage() {
       z-10
       pointer-events-none
       w-100
-      h-70
+      h-65
       md:w-150
       md:h-145
       lg:w-70
@@ -246,7 +254,7 @@ export default function CoupleMessage() {
       md:h-145
       lg:w-70
       lg:h-90
-      mt-3
+      md:mt-3 mt-2
       object-contain
     "
             />
