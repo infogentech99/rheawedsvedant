@@ -338,8 +338,8 @@ export default function CoupleMessage() {
         <div className="flex flex-col items-center h-80 md:h-100 lg:h-110 md:gap-2">
           <div className="flex md:gap-10 gap-2 mt-6 md:mt-20">
             <div
-              className="flex h-[100px] w-[95px] flex-col items-center justify-center bg-[url('/assets/count_bg.png')] bg-contain bg-center bg-no-repeat 
-            font-playfair-display text-center text-2xl font-medium text-[#D49900] md:h-[150px] md:w-[150px]
+              className="flex h-[100px] w-[80px] flex-col items-center justify-center bg-[url('/assets/count_bg.png')] bg-contain bg-center bg-no-repeat 
+            font-playfair-display text-center text-xl font-medium text-[#D49900] md:h-[150px] md:w-[150px]
              md:text-3xl lg:h-[180px] lg:w-[280px] lg:text-[52px]"
             >
               {timeLeft.days}
@@ -350,8 +350,8 @@ export default function CoupleMessage() {
             </div>
 
             <div
-              className="flex h-[100px] w-[95px] flex-col items-center justify-center bg-[url('/assets/count_bg.png')] bg-contain bg-center bg-no-repeat 
-            font-playfair-display text-center text-2xl font-medium text-[#D49900] md:h-[150px] md:w-[150px]
+              className="flex h-[100px] w-[80px] flex-col items-center justify-center bg-[url('/assets/count_bg.png')] bg-contain bg-center bg-no-repeat 
+            font-playfair-display text-center text-xl font-medium text-[#D49900] md:h-[150px] md:w-[150px]
              md:text-3xl lg:h-[180px] lg:w-[280px] lg:text-[52px]"
             >
               {timeLeft.hours}
@@ -362,8 +362,8 @@ export default function CoupleMessage() {
             </div>
 
             <div
-              className="flex h-[100px] w-[95px] flex-col items-center justify-center bg-[url('/assets/count_bg.png')] bg-contain bg-center bg-no-repeat 
-            font-playfair-display text-center text-2xl font-medium text-[#D49900] md:h-[150px] md:w-[150px]
+              className="flex h-[100px] w-[80px] flex-col items-center justify-center bg-[url('/assets/count_bg.png')] bg-contain bg-center bg-no-repeat 
+            font-playfair-display text-center text-xl font-medium text-[#D49900] md:h-[150px] md:w-[150px]
              md:text-3xl lg:h-[180px] lg:w-[280px] lg:text-[52px]"
             >
               {timeLeft.minutes}
@@ -374,8 +374,8 @@ export default function CoupleMessage() {
             </div>
 
             <div
-              className="flex h-[100px] w-[95px] flex-col items-center justify-center bg-[url('/assets/count_bg.png')] bg-contain bg-center bg-no-repeat 
-            font-playfair-display text-center text-2xl font-medium text-[#D49900] md:h-[150px] md:w-[150px]
+              className="flex h-[100px] w-[80px] flex-col items-center justify-center bg-[url('/assets/count_bg.png')] bg-contain bg-center bg-no-repeat 
+            font-playfair-display text-center text-xl font-medium text-[#D49900] md:h-[150px] md:w-[150px]
              md:text-3xl lg:h-[180px] lg:w-[280px] lg:text-[52px]"
             >
               {timeLeft.seconds}
