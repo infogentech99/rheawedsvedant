@@ -104,7 +104,7 @@ export default function CoupleMessage() {
         />  */}
 
 <video
-  src="/assets/template-animation.webm"
+  src="/assets/template-animation2.webm"
   autoPlay
   muted
   playsInline
