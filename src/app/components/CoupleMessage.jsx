@@ -84,25 +84,21 @@ export default function CoupleMessage() {
   return (
     <div className="bg-[url('/assets/bg_three.webp')] bg-cover bg-no-repeat">
       <div className="flex flex-col items-center h-765 md:h-1350 lg:h-1450 3xl:h-1600">
-        {/* <h2
-          className="font-playfair-display font-medium italic text-4xl md:text-3xl text-center 
-                               leading-7 md:leading-8 lg:leading-8 text-[#D49900] ml-300 mt-16"
-        >
-          Introducing The Couple
-        </h2>
-        */}
 
-
-
-
-
-<img
+{/* <img
           src="/assets/place.webp"
           alt="icon"
           className="w-full h-full lg:w-full lg:h-full md:mt-30"
          
-        /> 
+        />  */}
 
+<video
+  src="/assets/template-animation2.webm"
+  autoPlay
+  muted
+  playsInline
+  className="w-full h-full lg:w-full lg:h-full md:mt-30"
+/>
 
 
         <h2
