@@ -85,20 +85,20 @@ export default function CoupleMessage() {
     <div className="bg-[url('/assets/bg_three.webp')] bg-cover bg-no-repeat">
       <div className="flex flex-col items-center h-765 md:h-1350 lg:h-1450 3xl:h-1600">
 
-{/* <img
+<img
           src="/assets/place.webp"
           alt="icon"
           className="w-full h-full lg:w-full lg:h-full md:mt-30"
          
-        />  */}
+        /> 
 
-<video
+{/* <video
   src="/assets/template-animation2.webm"
   autoPlay
   muted
   playsInline
   className="w-full h-full lg:w-full lg:h-full md:mt-30"
-/>
+/> */}
 
 
         <h2
