@@ -95,21 +95,15 @@ export default function CoupleMessage() {
 
 
 
-{/* 
+
 <img
-          src="/assets/animation.gif"
+          src="/assets/place.webp"
           alt="icon"
           className="w-full h-full lg:w-full lg:h-full md:mt-30"
          
-        />  */}
+        /> 
 
-<video
-  src="/assets/template-animation_i.webm"
-  autoPlay
-  muted
-  playsInline
-  className="w-full h-full lg:w-full lg:h-full md:mt-30 border"
-/>
+
 
         <h2
           className="font-playfair-display font-medium italic text-4xl md:text-6xl text-center 
