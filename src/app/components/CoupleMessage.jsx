@@ -402,9 +402,8 @@ export default function CoupleMessage() {
             alt="heart"
             className="w-7 h-7 lg:w-7 lg:h-7 mt-13"
           />
-
            <p className="font-eb-garamond font-medium text-sm md:text-base lg:text-2xl mt-4 md:leading-6 text-[#D49900] italic">
-          To Forever Begins
+          Forever Begins
         </p>
         <p className="font-eb-garamond font-medium text-sm md:text-base lg:text-xl mt-4 md:leading-6 text-[#D49900] italic px-6 text-center">
           With Heartfelt Blessings & Warmest Wishes Our Family request the
