@@ -83,12 +83,12 @@ export default function CoupleMessage() {
 
   return (
     <div className="bg-[url('/assets/bg_three.webp')] bg-cover bg-no-repeat">
-      <div className="flex flex-col items-center h-765 md:h-1350 lg:h-1450 3xl:h-1600">
+      <div className="flex flex-col items-center h-768 md:h-1300 lg:h-1520 3xl:h-1660">
 
 <img
           src="/assets/place.webp"
           alt="icon"
-          className="w-full h-full lg:w-full lg:h-full md:mt-30"
+          className="w-full h-120 lg:w-full lg:h-500 md:mt-30"
          
         /> 
 
@@ -412,7 +412,20 @@ export default function CoupleMessage() {
           <p className="font-eb-garamond font-medium text-base md:text-xl lg:text-[28px] text-center mt-4 px-6 md:px-0 text-[#D49900]">
             A Special Tail-Wagging Welcome from Google Hegde
           </p>
-          <div className="flex gap-3 justify-center items-center md:mt-34 mt-14">
+     
+        </div>
+       
+
+      <img
+          src="/assets/hotel.webp"
+          alt="icon"
+          className="lg:w-full lg:h-290 object-contain md:mt-80 mt-50"
+        />
+
+      
+
+
+            <div className="flex gap-3 justify-center items-center md:my-6 my-4 pb-2">
             <a href="https://www.instagram.com/theinvitearc/" target="_blank">
               <img
                 src="/assets/insta.png"
@@ -420,19 +433,13 @@ export default function CoupleMessage() {
                 className="w-6 h-5 md:w-10 md:h-10 lg:w-5.5 lg:h-5.5 mt-4"
               />
             </a>
-            <p className="font-eb-garamond font-medium text-sm md:text-base lg:text-lg text-center mt-4 text-[#D49900]">
+            <p className="font-eb-garamond font-medium text-[17px] md:text-base lg:text-lg text-center mt-4 text-[#D49900]">
               <a href="https://invitearc.com/" target="_blank">
                 Follow InviteArc on Instagram
               </a>
             </p>
           </div>
-        </div>
-        <img
-          src="/assets/hotel.webp"
-          alt="icon"
-          className="lg:w-full lg:h-full object-contain md:mt-80 mt-60"
-        />
-      </div>
+          </div>
     </div>
   );
 }
