@@ -210,11 +210,11 @@ export default function CoupleMessage() {
             </div>
           </div>
           <div>
-            <img
+            {/* <img
               src="/assets/happy.png"
               alt="couple_img"
               className="relative z-10 pointer-events-none w-60 h-20 -mt-6 lg:ml-20 object-contain"
-            />
+            /> */}
             <img
               src="/assets/couple_4.webp"
               alt="couple_img"
@@ -228,7 +228,7 @@ export default function CoupleMessage() {
       md:h-145
       lg:w-70
       lg:h-90
-     
+     md:mt-6 mt-8
     "
             />
             <img
@@ -255,7 +255,7 @@ export default function CoupleMessage() {
           className="font-playfair-display font-medium italic text-3xl md:text-5xl lg:text-[100px] text-center pt-20
                                md:pt-30 lg:pt-35 text-[#D49900]"
         >
-          Good To Know
+          Things To Know
         </h2>
         <div className="flex gap-2 mt-6 md:mt-8 lg:mt-12">
           <hr className="w-10 lg:w-20 md:border my-3 md:my-6 border-[#D49900]" />
@@ -317,13 +317,13 @@ export default function CoupleMessage() {
           />
           <hr className="w-10 lg:w-20 md:border my-3 md:my-6 border-[#D49900]" />
         </div>
-        <p className="font-eb-garamond font-medium text-sm md:text-base lg:text-2xl mt-4 md:leading-6 text-[#D49900] italic">
+        {/* <p className="font-eb-garamond font-medium text-sm md:text-base lg:text-2xl mt-4 md:leading-6 text-[#D49900] italic">
           To Forever Begins
         </p>
         <p className="font-eb-garamond font-medium text-sm md:text-base lg:text-xl mt-4 md:leading-6 text-[#D49900] italic px-6 text-center">
           With Heartfelt Blessings & Warmest Wishes Our Family request the
           honour of your presence to bless this sacred union of love and destiny
-        </p>
+        </p> */}
 
         <div className="flex flex-col items-center h-80 md:h-100 lg:h-110 md:gap-2">
           <div className="flex md:gap-10 gap-2 mt-6 md:mt-20">
@@ -402,15 +402,23 @@ export default function CoupleMessage() {
             alt="heart"
             className="w-7 h-7 lg:w-7 lg:h-7 mt-13"
           />
+
+           <p className="font-eb-garamond font-medium text-sm md:text-base lg:text-2xl mt-4 md:leading-6 text-[#D49900] italic">
+          To Forever Begins
+        </p>
+        <p className="font-eb-garamond font-medium text-sm md:text-base lg:text-xl mt-4 md:leading-6 text-[#D49900] italic px-6 text-center">
+          With Heartfelt Blessings & Warmest Wishes Our Family request the
+          honour of your presence to bless this sacred union of love and destiny
+        </p>
           <p className="font-eb-garamond font-medium text-base md:text-xl lg:text-[28px] text-center mt-4 px-6 md:px-0 text-[#D49900]">
             A Special Tail-Wagging Welcome from Google Hegde
           </p>
-          <div className="flex gap-3 justify-center items-center mt-4">
+          <div className="flex gap-3 justify-center items-center md:mt-34 mt-14">
             <a href="https://www.instagram.com/theinvitearc/" target="_blank">
               <img
                 src="/assets/insta.png"
                 alt="instagram"
-                className="w-7 h-6 md:w-10 md:h-10 lg:w-5.5 lg:h-5.5 mt-4"
+                className="w-6 h-5 md:w-10 md:h-10 lg:w-5.5 lg:h-5.5 mt-4"
               />
             </a>
             <p className="font-eb-garamond font-medium text-sm md:text-base lg:text-lg text-center mt-4 text-[#D49900]">
@@ -423,7 +431,7 @@ export default function CoupleMessage() {
         <img
           src="/assets/hotel.webp"
           alt="icon"
-          className="lg:w-full lg:h-full object-contain md:mt-80 mt-40"
+          className="lg:w-full lg:h-full object-contain md:mt-80 mt-60"
         />
       </div>
     </div>

@@ -23,7 +23,7 @@ export default function Home() {
     },
 
     {
-      title_ceremony: "Rang-e-Mehndi",
+      title_ceremony: "Rang-e-Mehendi",
       image: "/assets/mehandi.webp",
       date: "Thursday, October 29th 2026",
       venue: "The Central Park Hotel",
@@ -37,7 +37,7 @@ export default function Home() {
       link: "https://maps.app.goo.gl/a9VUbZpPrKCWrjy4A",
     },
     {
-      title_ceremony: "The Scared Promise",
+      title_ceremony: "The Sacred Promise",
       image: "/assets/scared.webp",
       date: "Sunday, November 1st 2026",
       venue: "The Central Park Hotel",
@@ -134,7 +134,7 @@ export default function Home() {
         <div className=" md:pt-24 pt-0 md:pb-50 lg:pb-40 relative z-10 pb-24">
           <div className=" text-center leading-tight text-[32px] sm:text-5xl lg:text-[100px] lg:pb-370 3xl:pb-500 md:pb-470 gap-y-2 pb-30">
             <h2 className="text-[#004F8D]  font-parisienne [text-shadow:2px_2px_4px_rgba(0,0,0,0.4)] font-medium font-playfair-display italic md:mt-55 mt-15">
-              RHEA Weds VEDANT
+              RHEA weds VEDANT
             </h2>
           </div>
 
@@ -177,13 +177,13 @@ export default function Home() {
               className="text-[#0071CC] font-playfair-display text-center mt-14
             md:text-5xl text-[64px] lg:text-[100px] leading-tight"
             >
-              Vedant Shah
+               Rhea Hegde
             </h2>
 
             <p className="text-[#0071CC] font-eb-garamond lg:text-[30px] md:text-2xl mt-2 text-[16px]">
-              S/O
+              D/O
               <br />
-              Arati Shah and Amit Shah
+             Ruby Hegde and Kishore Hegde
             </p>
 
             <h2
@@ -197,13 +197,13 @@ export default function Home() {
                 &
               </span>{" "}
               <br />
-              Rhea Hegde
+              Vedant Shah
             </h2>
 
             <p className="text-[#0071CC] font-eb-garamond lg:text-[30px] md:text-2xl mt-2 text-[16px]">
-              D/O
+              S/O
               <br />
-              Ruby Hegde and Kishore Hegde
+              Arati Shah and Amit Shah
             </p>
 
             <p className="text-[#0071CC] font-eb-garamond md:text-2xl text-[17px] mt-8 ">
@@ -284,7 +284,7 @@ export default function Home() {
             Where the serene shores of the South met the golden coasts of the
             West,
             <br />
-            two hearts found their rhythm, two souls found their rest. <br />
+            two hearts found their rhythm, two souls found their nest. <br />
             <br />
             From different horizons, woven by love and rooted in values, our
             families became one.
