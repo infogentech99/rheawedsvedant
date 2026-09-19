@@ -3,7 +3,7 @@ import CoupleMessage from "./components/CoupleMessage";
 import Fireworks from "./components/Fireworks";
 import { useEffect, useState, useRef, useMemo } from "react";
 import RoseHeroTemp from "./components/RoseHeroTemp";
-
+import IntroVideo from "./components/IntroVideo";
 
 export default function Home() {
   const events = [
@@ -120,7 +120,7 @@ export default function Home() {
       >
         {playing ? "⏸" : "▶"}
       </button>
-
+<IntroVideo />
       <audio ref={audioRef} src="/assets/background_song.mp3" loop preload="auto" playsInline />
 
                 {/* <Fireworks /> */}
