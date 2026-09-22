@@ -93,7 +93,7 @@ export default function CoupleMessage() {
 
 <div className="relative w-full">
   {/* Top Right Text */}
-  <div className="absolute top-16 right-14 md:top-50 3xl:top-70 md:right-80 3xl:right-110 items-center flex flex-col md:gap-8"><img
+  <div className="absolute top-12 right-14 md:top-50 3xl:top-70 md:right-80 3xl:right-110 items-center flex flex-col md:gap-8"><img
     src="/assets/loc_icon.png"
     alt="icon"
     className="md:w-7 md:h-10 h-5"
@@ -121,7 +121,7 @@ export default function CoupleMessage() {
 
 
 
-<div className="absolute bottom-10 left-10 md:bottom-40 3xl:bottom-80 md:left-40 3xl:left-90 items-center flex flex-col md:gap-8"><img
+<div className="absolute bottom-10 left-4 md:bottom-40 3xl:bottom-80 md:left-40 3xl:left-90 items-center flex flex-col md:gap-8"><img
     src="/assets/loc_icon.png"
     alt="icon"
     className="md:w-7 md:h-10 h-5"
@@ -130,7 +130,7 @@ export default function CoupleMessage() {
   <h2
     className="font-playfair-display font-medium italic 
                text-2xl md:text-3xl lg:text-7xl 
-               text-center leading-7 md:leading-8 
+               text-center leading-7 md:leading-8
                text-[#D49900] z-20"
   >
     Karnataka
