@@ -84,20 +84,60 @@ export default function CoupleMessage() {
   return (
     <div className="bg-[url('/assets/bg_three.webp')] bg-cover bg-no-repeat">
       <div className="flex flex-col items-center h-840 md:h-1300 lg:h-1520 3xl:h-1690">
-        <img
+        {/* <img
           src="/assets/place.webp"
           alt="icon"
           className="w-full h-120 lg:w-full lg:h-500 md:mt-30"
-        />
+        /> */}
 
-        {/* <video
-  src="/assets/template-animation2.webm"
-  autoPlay
-  muted
-  playsInline
-  className="w-full h-full lg:w-full lg:h-full md:mt-30"
-/> */}
 
+<div className="relative w-full">
+  {/* Top Right Text */}
+  <div className="absolute top-16 right-14 md:top-50 3xl:top-70 md:right-80 3xl:right-110 items-center flex flex-col md:gap-8"><img
+    src="/assets/loc_icon.png"
+    alt="icon"
+    className="md:w-7 md:h-10 h-5"
+  />
+  
+  <h2
+    className="font-playfair-display font-medium italic 
+               text-2xl md:text-3xl lg:text-7xl 
+               text-center leading-7 md:leading-8 
+               text-[#D49900] z-20"
+  >
+    Gujarat
+  </h2>
+  </div>
+  
+
+  {/* Image */}
+  <img
+    src="/assets/place.webp"
+    alt="icon"
+    className="w-full h-full object-cover z-10"
+  />
+
+  {/* Bottom Left Text */}
+
+
+
+<div className="absolute bottom-10 left-10 md:bottom-40 3xl:bottom-80 md:left-40 3xl:left-90 items-center flex flex-col md:gap-8"><img
+    src="/assets/loc_icon.png"
+    alt="icon"
+    className="md:w-7 md:h-10 h-5"
+  />
+  
+  <h2
+    className="font-playfair-display font-medium italic 
+               text-2xl md:text-3xl lg:text-7xl 
+               text-center leading-7 md:leading-8 
+               text-[#D49900] z-20"
+  >
+    Karnataka
+  </h2>
+  </div>
+</div>
+        
 
         <h2
           className="font-playfair-display font-medium italic text-4xl md:text-6xl text-center 
