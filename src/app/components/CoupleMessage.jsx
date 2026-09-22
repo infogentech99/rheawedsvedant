@@ -98,6 +98,7 @@ export default function CoupleMessage() {
   className="w-full h-full lg:w-full lg:h-full md:mt-30"
 /> */}
 
+
         <h2
           className="font-playfair-display font-medium italic text-4xl md:text-6xl text-center 
                                mt-23 md:mt-16 lg:mt-60 leading-15 md:leading-12 lg:leading-8 text-[#D49900]"
