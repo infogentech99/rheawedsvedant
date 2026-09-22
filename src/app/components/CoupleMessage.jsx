@@ -308,6 +308,7 @@ export default function CoupleMessage() {
         >
           The Countdown
         </h2>
+       
         <div className="flex gap-2 mt-6 md:mt-8 lg:mt-12">
           <hr className="w-10 lg:w-20 md:border my-3 md:my-6 border-[#D49900]" />
           <img
@@ -409,9 +410,17 @@ export default function CoupleMessage() {
           With Heartfelt Blessings & Warmest Wishes Our Family request the
           honour of your presence to bless this sacred union of love and destiny
         </p>
-          <p className="font-eb-garamond font-medium text-base md:text-xl lg:text-[28px] text-center mt-4 px-6 md:px-0 text-[#D49900]">
+        <div className="flex md:gap-2">
+          <p className="font-eb-garamond font-medium text-base md:text-xl lg:text-[28px] text-center mt-4 pl-6 md:px-0 text-[#D49900]">
             A Special Tail-Wagging Welcome from Google Hegde
           </p>
+          <img 
+  src="/assets/shih.gif" 
+  alt="icon" 
+  className="w-15 h-15 lg:w-24 lg:h-24 md:mt-3" 
+/>
+        </div>
+          
      
         </div>
        
