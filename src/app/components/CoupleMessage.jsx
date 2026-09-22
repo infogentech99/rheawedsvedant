@@ -274,7 +274,7 @@ export default function CoupleMessage() {
                 Baarat
               </h2>
               <p className="font-eb-garamond font-medium text-sm md:text-base lg:text-xl mt-4 md:leading-6 text-[#D49900] px-4">
-                Baarat begins at 2:45pm at Novotel Entrance Gate
+                Baarat begins at 2:15pm at Novotel Entrance Gate
               </p>
             </div>
             <div className="flex flex-col items-center justify-center text-center">
@@ -420,8 +420,7 @@ export default function CoupleMessage() {
           </p>
 
           <p className="font-eb-garamond font-medium text-base md:text-xl lg:text-[28px] text-center mt-4 pl-6 md:px-0 text-[#D49900]">
-            A Special Tail-Wagging <br />
-            Welcome <br />
+            "A Special Tail-Wagging Welcome" <br />
             from <br />
             <img
               src="/assets/shih.gif"
