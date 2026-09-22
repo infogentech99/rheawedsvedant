@@ -47,7 +47,7 @@ export default function Home() {
           <br /> Balraj Sahni Marg, Juhu Beach, Mumbai - 400049
         </>
       ),
-      time: "Join Us at 02:30 PM Onwards",
+      time: "Join Us at 03:30 PM Onwards",
       link: "https://maps.app.goo.gl/QLJvPyZLZHhhmfKm7",
     },
     {

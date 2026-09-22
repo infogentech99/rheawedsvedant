@@ -83,23 +83,20 @@ export default function CoupleMessage() {
 
   return (
     <div className="bg-[url('/assets/bg_three.webp')] bg-cover bg-no-repeat">
-      <div className="flex flex-col items-center h-768 md:h-1300 lg:h-1520 3xl:h-1660">
-
-<img
+      <div className="flex flex-col items-center h-840 md:h-1300 lg:h-1520 3xl:h-1690">
+        <img
           src="/assets/place.webp"
           alt="icon"
           className="w-full h-120 lg:w-full lg:h-500 md:mt-30"
-         
-        /> 
+        />
 
-{/* <video
+        {/* <video
   src="/assets/template-animation2.webm"
   autoPlay
   muted
   playsInline
   className="w-full h-full lg:w-full lg:h-full md:mt-30"
 /> */}
-
 
         <h2
           className="font-playfair-display font-medium italic text-4xl md:text-6xl text-center 
@@ -118,7 +115,7 @@ export default function CoupleMessage() {
         </div>
         <div className="flex gap-2 md:mt-30 mt-16 md:px-2 pr-2">
           <div>
-             <img
+            <img
               src="/assets/couple_1.webp"
               alt="couple_img"
               className="
@@ -137,7 +134,7 @@ export default function CoupleMessage() {
       object-contain md:block hidden
     "
             />
-             <img
+            <img
               src="/assets/couple_mobile_1.webp"
               alt="couple_img"
               className="
@@ -157,8 +154,7 @@ export default function CoupleMessage() {
       md:hidden block
     "
             />
-    
-            
+
             <img
               src="/assets/couple_2.png"
               alt="couple_img"
@@ -179,9 +175,7 @@ export default function CoupleMessage() {
     "
             />
 
-
-
-             <img
+            <img
               src="/assets/couple_mobile_2.webp"
               alt="couple_img"
               className="
@@ -268,7 +262,20 @@ export default function CoupleMessage() {
         </div>
 
         <div className="flex justify-center mt-10 md:mt-20 pb-15 md:pb-24">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 md:gap-14 lg:gap-0">
+          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-10 md:gap-14 lg:gap-0">
+            <div className="flex flex-col items-center justify-center text-center">
+              <img
+                src="/assets/baarat.png"
+                alt="weather"
+                className="h-40 w-55 md:w-25 md:h-20 lg:w-[70%] lg:h-[70%]"
+              />
+              <h2 className="font-playfair-display font-semibold text-xl md:text-xl lg:text-4xl mt-8 text-[#D49900]">
+                Baarat
+              </h2>
+              <p className="font-eb-garamond font-medium text-sm md:text-base lg:text-xl mt-4 md:leading-6 text-[#D49900] px-4">
+                Baarat begins at 2:45pm at Novotel Entrance Gate
+              </p>
+            </div>
             <div className="flex flex-col items-center justify-center text-center">
               <img
                 src="/assets/varmala.png"
@@ -279,9 +286,8 @@ export default function CoupleMessage() {
                 Varmala
               </h2>
               <p className="font-eb-garamond font-medium text-sm md:text-base lg:text-xl mt-4 md:leading-6 text-[#D49900] px-4">
-                Varmala at 2:45pm will happen at Poolside but the rest of the
-                wedding <br className="md:block hidden"/>
-                rituals will happen in the Champagne Ballroom from 3:30pm
+                Varmala to take place between 2:45pm to 3:30pm at <br />{" "}
+                poolside of Novotel Hotel
               </p>
             </div>
 
@@ -308,7 +314,7 @@ export default function CoupleMessage() {
         >
           The Countdown
         </h2>
-       
+
         <div className="flex gap-2 mt-6 md:mt-8 lg:mt-12">
           <hr className="w-10 lg:w-20 md:border my-3 md:my-6 border-[#D49900]" />
           <img
@@ -403,52 +409,49 @@ export default function CoupleMessage() {
             alt="heart"
             className="w-7 h-7 lg:w-7 lg:h-7 mt-13"
           />
-           <p className="font-eb-garamond font-medium text-sm md:text-base lg:text-2xl mt-4 md:leading-6 text-[#D49900] italic">
-          Forever Begins
-        </p>
-        <p className="font-eb-garamond font-medium text-sm md:text-base lg:text-xl mt-4 md:leading-6 text-[#D49900] italic px-6 text-center">
-          With Heartfelt Blessings & Warmest Wishes Our Family request the
-          honour of your presence to bless this sacred union of love and destiny
-        </p>
-        <div className="flex md:gap-2">
-          <p className="font-eb-garamond font-medium text-base md:text-xl lg:text-[28px] text-center mt-4 pl-6 md:px-0 text-[#D49900]">
-            A Special Tail-Wagging Welcome from Google Hegde
+          <p className="font-eb-garamond font-medium text-sm md:text-base lg:text-2xl mt-4 md:leading-6 text-[#D49900] italic">
+            Forever Begins
           </p>
-          <img 
-  src="/assets/shih.gif" 
-  alt="icon" 
-  className="w-15 h-15 lg:w-24 lg:h-24 md:mt-3" 
-/>
-        </div>
-          
-     
-        </div>
-       
+          <p className="font-eb-garamond font-medium text-sm md:text-base lg:text-xl mt-4 md:leading-6 text-[#D49900] italic px-6 text-center">
+            With Heartfelt Blessings & Warmest Wishes Our Family request the
+            honour of your presence to bless this sacred union of love and
+            destiny
+          </p>
 
-      <img
+          <p className="font-eb-garamond font-medium text-base md:text-xl lg:text-[28px] text-center mt-4 pl-6 md:px-0 text-[#D49900]">
+            A Special Tail-Wagging <br />
+            Welcome <br />
+            from <br />
+            <img
+              src="/assets/shih.gif"
+              alt="icon"
+              className="w-15 h-15 lg:w-24 lg:h-24 md:mt-3 mx-auto block"
+            />
+            Google Hegde
+          </p>
+        </div>
+
+        <img
           src="/assets/hotel.webp"
           alt="icon"
-          className="lg:w-full lg:h-290 object-contain md:mt-80 mt-50"
+          className="lg:w-full lg:h-290 object-contain md:mt-100 mt-60"
         />
 
-      
-
-
-            <div className="flex gap-3 justify-center items-center md:my-6 my-4 pb-2">
-            <a href="https://www.instagram.com/theinvitearc/" target="_blank">
-              <img
-                src="/assets/insta.png"
-                alt="instagram"
-                className="w-6 h-5 md:w-10 md:h-10 lg:w-5.5 lg:h-5.5 mt-4"
-              />
+        <div className="flex gap-3 justify-center items-center md:my-6 my-4 pb-2">
+          <a href="https://www.instagram.com/theinvitearc/" target="_blank">
+            <img
+              src="/assets/insta.png"
+              alt="instagram"
+              className="w-6 h-5 md:w-10 md:h-10 lg:w-5.5 lg:h-5.5 mt-4"
+            />
+          </a>
+          <p className="font-eb-garamond font-medium text-[17px] md:text-base lg:text-lg text-center mt-4 text-[#D49900]">
+            <a href="https://invitearc.com/" target="_blank">
+              Follow InviteArc on Instagram
             </a>
-            <p className="font-eb-garamond font-medium text-[17px] md:text-base lg:text-lg text-center mt-4 text-[#D49900]">
-              <a href="https://invitearc.com/" target="_blank">
-                Follow InviteArc on Instagram
-              </a>
-            </p>
-          </div>
-          </div>
+          </p>
+        </div>
+      </div>
     </div>
   );
 }
