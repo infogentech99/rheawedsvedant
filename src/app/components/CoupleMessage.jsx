@@ -100,7 +100,7 @@ export default function CoupleMessage() {
 
         <h2
           className="font-playfair-display font-medium italic text-4xl md:text-6xl text-center 
-                               mt-23 md:mt-16 lg:mt-60 leading-7 md:leading-8 lg:leading-8 text-[#D49900]"
+                               mt-23 md:mt-16 lg:mt-60 leading-15 md:leading-12 lg:leading-8 text-[#D49900]"
         >
           Introducing The Couple
         </h2>
@@ -269,7 +269,7 @@ export default function CoupleMessage() {
                 alt="weather"
                 className="h-40 w-55 md:w-25 md:h-20 lg:w-[70%] lg:h-[70%]"
               />
-              <h2 className="font-playfair-display font-semibold text-xl md:text-xl lg:text-4xl mt-8 text-[#D49900]">
+              <h2 className="font-playfair-display font-semibold text-xl md:text-xl lg:text-4xl mt-2 text-[#D49900]">
                 Baarat
               </h2>
               <p className="font-eb-garamond font-medium text-sm md:text-base lg:text-xl mt-4 md:leading-6 text-[#D49900] px-4">
@@ -282,7 +282,7 @@ export default function CoupleMessage() {
                 alt="weather"
                 className="h-40 w-55 md:w-25 md:h-20 lg:w-[70%] lg:h-[70%]"
               />
-              <h2 className="font-playfair-display font-semibold text-xl md:text-xl lg:text-4xl mt-8 text-[#D49900]">
+              <h2 className="font-playfair-display font-semibold text-xl md:text-xl lg:text-4xl mt-2 text-[#D49900]">
                 Varmala
               </h2>
               <p className="font-eb-garamond font-medium text-sm md:text-base lg:text-xl mt-4 md:leading-6 text-[#D49900] px-4">
@@ -297,7 +297,7 @@ export default function CoupleMessage() {
                 alt="parking"
                 className="h-40 w-55 md:w-25 md:h-20 lg:w-[70%] lg:h-[70%]"
               />
-              <h2 className="font-playfair-display font-semibold text-xl md:text-xl lg:text-4xl mt-8 text-[#D49900]">
+              <h2 className="font-playfair-display font-semibold text-xl md:text-xl lg:text-4xl mt-2 text-[#D49900]">
                 Parking
               </h2>
               <p className="font-eb-garamond font-medium text-sm md:text-base lg:text-xl mt-4 md:leading-6 text-[#D49900]">
