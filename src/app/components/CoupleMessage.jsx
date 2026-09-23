@@ -83,7 +83,7 @@ export default function CoupleMessage() {
 
   return (
     <div className="bg-[url('/assets/bg_three.webp')] bg-cover bg-no-repeat">
-      <div className="flex flex-col items-center h-840 md:h-1300 lg:h-1520 3xl:h-1690">
+      <div className="flex flex-col items-center h-840 md:h-1300 lg:h-1490 3xl:h-1640">
         {/* <img
           src="/assets/place.webp"
           alt="icon"
